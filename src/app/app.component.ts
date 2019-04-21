@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularDatePipe';
+  currentDate = new Date();
+  myNumber:number=0.1234;
 }
